@@ -1,0 +1,32 @@
+@media(min-width:650px) {
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: pink;
+  padding: 10px;
+  overflow: auto;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 200px;
+}
+
+.column1 {
+  max-width: 70%;
+  float: left;
+  padding: 4px;
+}
+
+.column2 {
+  max-width: 30%;
+  float: right;
+  padding: 4px;
+}
